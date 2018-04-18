@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{message}}
+  </h1>
+  <app-test-comp-interaction (childEvent)="message=$event" [parentData]="name"></app-test-comp-interaction>
+  <app-test-list-rendering></app-test-list-rendering> 
+</div>
